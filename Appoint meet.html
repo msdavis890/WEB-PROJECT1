@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blitzlink Appoinments</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Blitz.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>BlitzLink</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="Appoint meet.html">Appoinment</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Make a appoinment</h2>
+        <h3>Contact Us Today</h3>
+        <p>Required fields are marked with an asterisk</p>
+        <form
+          action="https://webdevbasics.net/scripts/pacific.php"
+          method="post"
+          <label for="firstName">*First Name:</label>
+          <input type="text" name="firstName" id="firstName" required="required"></input>
+
+          <label for="lastName">*Last Name:</label>
+          <input type="text" name="lastName" id="lastName" required="required"></input>
+
+          <label for="email">*E-mail:</label>
+          <input type="email" name="email" id="email" required="required"></input>
+
+          <label for="phone">Phone:</label>
+          <input type="phone" name="phone" id="phone" maxlength="12"></input>
+
+          <label for="date">Appointment Date:</label>
+          <input type="date" name="date" id="date"></input>
+
+          
+
+          <label for="comments">*Comments:</label>
+          <textarea name="comments" rows="2" cols="30" value="Submit"></textarea>
+
+          <input value="Submit" type="submit" name="submit" id="submit" required="required"></input>
+        </form>
+        <div id="contact">
+          <p>
+            <span class="resort">Blitzlink</span> <br />
+            11010 Bliztlink <br />
+            Greenvile, NC Belsfort <br />
+            
+          </p>
+        </div>
+      </main>
+      <footer>
+        Copyright &copy; 2025 Matthew Davis
+        <br />
+        >
+      </footer>
+    </div>
+  </body>
+</html>
